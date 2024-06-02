@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cypher</title>
+</head>
+<body>
+<h2>Search!!</h2>
+<form th:action="@{/cypher}" method="POST">
+    <label for="cypher">cypher:</label>
+    <input type="text" id="cypher" name="cypher" required><br><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
